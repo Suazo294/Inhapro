@@ -1,0 +1,40 @@
+*{
+	margin: 3px;
+	padding: 0px;
+}
+
+img{
+	width: 200px;
+	height: 250px;
+	padding-right: 10px;
+	padding-left:10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+	transition: transform 0.5s;
+}
+img:hover{
+	transform: scale(0.9);
+}
+
+body{
+	background: #444;
+	color:#fff;
+}
+*nav{
+	font-family: arial;
+	font-size: 38.9px;
+	text-decoration:none;
+	float: left;
+	padding: 7.4px;
+	background-color: #6e6e6e;
+	color: #ffffff 
+}
+
+nav :hover {
+	background-color: #000000;
+	padding-bottom: 7.5px;
+}
+.p{
+	color:  red;
+	transition: transform 0.5s;
+}
